@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['block']
+
+roboflow:
+  workspace: block-u0ixj
+  project: gray-p7uso
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/block-u0ixj/gray-p7uso/dataset/5
